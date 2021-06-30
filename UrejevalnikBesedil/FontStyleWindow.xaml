@@ -1,0 +1,24 @@
+﻿<Window x:Class="UrejevalnikBesedil.FontStyleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UrejevalnikBesedil"
+        mc:Ignorable="d"
+        Title="FontStyleWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="16">
+
+            <Label Content="Font:"></Label>
+            <ComboBox Name="ComboBoxFont"></ComboBox>
+
+            <Label Content="FontSize:"></Label>
+            <ComboBox Name="ComboBoxFontSize"></ComboBox>
+
+            <Button Name="Confirm" Content="Confirm" VerticalAlignment="Bottom" Margin="0,16,0,0" Click="Confirm_OnClick"></Button>
+
+            <Button Name="Cancel" Content="Cancel" VerticalAlignment="Bottom" Margin="0,16,0,0" Click="Cancel_OnClick"></Button>
+
+        </StackPanel>
+    </Grid>
+</Window>
